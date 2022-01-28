@@ -4,6 +4,6 @@ import App from './App'
 
 test('renders App component', () => {
   render(<App />)
-  const linkElement = screen.getByText(/Namle/)
+  const linkElement = screen.getByText(/Tootle/)
   expect(linkElement).toBeInTheDocument()
 })
